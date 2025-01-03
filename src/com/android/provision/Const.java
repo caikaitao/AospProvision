@@ -17,7 +17,7 @@ package com.android.provision;
 
 public class Const {
     // Base URL (scheme and domain) of your Headwind MDM instance
-    public static String SERVER_URL = "https://demo.h-mdm.com";
+    public static String SERVER_URL = "https://hmdm-test.wiltechs.com:8443";
     // URL path (e.g. hmdm) or empty string if Headwind MDM is installed 
     // at the root of the domain
     public static String SERVER_PATH = "";
@@ -26,7 +26,7 @@ public class Const {
     // Assign configuration for unregistered devices
     // Place the configuration ID here or null if unregistered devices
     // shouldn't be registered
-    public static String ASSIGN_CONFIG = null;
+    public static String ASSIGN_CONFIG = "OME_WT1";
     // Assign groups for unregistered devices
     // Comma-separated group IDs here or null if groups shouldn't be assigned
     public static String ASSIGN_GROUPS = null;
