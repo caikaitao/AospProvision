@@ -22,7 +22,7 @@ public class Const {
     // at the root of the domain
     public static String SERVER_PATH = "";
     // Device ID strategy: "imei", "serial" or null (user selection)
-    public static String DEVICE_ID_USE = "imei";
+    public static String DEVICE_ID_USE = null;
     // Assign configuration for unregistered devices
     // Place the configuration ID here or null if unregistered devices
     // shouldn't be registered
